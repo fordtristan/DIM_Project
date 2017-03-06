@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_patient_profile"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/patient_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter Patient First Name"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/patient_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter Patient Last Name"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/patient_dob"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter Patient Date of Birth"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/patient_gender"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter Patient Gender"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/patient_address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter Patient Address"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/create_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Create Patient's Profile"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"/>
+
+</LinearLayout>

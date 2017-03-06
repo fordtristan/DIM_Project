@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Patient search box -->
+    <EditText
+        android:id="@+id/patient_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter patient name"
+        android:textSize="22sp"/>
+
+    <!--Scrolling list of patients -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/patient_data_textview"
+            android:layout_width="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:layout_height="0dp"/>
+    </ScrollView>
+<!--Button to add new patient-->
+    <Button
+        android:id="@+id/add_button_user"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Add a new patient"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"/>
+</LinearLayout>
